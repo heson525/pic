@@ -148,7 +148,7 @@
 					this._canvas.style["top"] = "0";
 					this._canvas.style["width"] = "100%";
 					this._canvas.style["height"] = "100%";
-					this._canvas.style["z-index"] = "9999";
+					this._canvas.style["z-index"] = "-1";
 					this._canvas.style["pointer-events"] = "none";
 					this._onResize();
 					this._context = this._canvas.getContext("2d");
